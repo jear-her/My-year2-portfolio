@@ -47,7 +47,7 @@ const About = () => {
         },
         {
             id: 10,
-            name: "Typscript",
+            name: "TypeScript",
         }
 
     ];
@@ -74,18 +74,18 @@ const About = () => {
         }
     ]
 
-   const ToolIDE:Toolextra[]=[
+    const ToolIDE:Toolextra[]=[
     {
         id:1,
-        name:"Google Antigravity",
+        name:"Git & GitHub",
     },
     {
         id:2,
-        name:"Git & GitHub"
+        name:"Postman"
     },
     {
         id:3,
-        name:"AI"
+        name:"AI Tools"
     }
     ,{
         id:4,
@@ -93,7 +93,7 @@ const About = () => {
     },
     {
         id:5,
-        name:"Vs code "
+        name:"VS Code"
     }
 
    ]
@@ -108,9 +108,9 @@ const About = () => {
             <main className=" mx-40 flex flex-col md:flex-row items-center justify-around px-6  shadow-md" >
                 {/* {/ * Hero section and the leftside with text and icons with button  */}
                 <article className="container   " >
-                    <h1 className="text-4xl font-bold mb-4 text-white">Welcome to Jear website</h1>
-                    <h1 className="text-2xl font-semibold text-white">I am a Web  <span className="text-green-500">Developer</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sapiente!</p>
+                    <h1 className="text-4xl font-bold mb-4 text-white">Welcome to My Portfolio</h1>
+                    <h1 className="text-2xl font-semibold text-white">I am a Full-Stack <span className="text-green-500">Developer</span></h1>
+                    <p>Dedicated to building high-quality, scalable web applications with modern technologies and a focus on user-centric design.</p>
 
                     <aside className="mt-6 flex items-center">
                         <button className="bg-green-200 text-black   rounded hover:bg-blue-600 transition duration-300">Get Started</button>
@@ -126,7 +126,7 @@ const About = () => {
                 <article>
                     <img
                         src={MyImage}
-                        alt="Hero Image"
+                        alt="Profile Image"
                         width={400}
                         height={400}
                         className="w-full h-auto rounded-lg shadow-md mt-10 md:mt-0" />
@@ -137,15 +137,15 @@ const About = () => {
 
 
             <section>
-                <header className="text-center text-4xl mt-20 text-shadow-md mb-10">
-                    MY TECHSTACK
+                <header className="text-center text-4xl mt-20 text-shadow-md mb-10 uppercase tracking-widest">
+                    Technical Expertise
                 </header>
 
                 {/* this is Frontend section  */}
 
                 <aside className="mx-30">
 
-                    <h1 className="text-white text-3xl">FRONTEND</h1>
+                    <h1 className="text-white text-3xl font-bold mb-6">FRONTEND</h1>
                     <div className="flex flex-col md:flex-row gap-3 my-3 text-center">
 
                         {StackItems.map((item) => (
@@ -160,8 +160,8 @@ const About = () => {
 
                 {/** this is backend section */}
 
-                <article className="mx-30">
-                    <h1 className="text-3xl text-white mb-5">BACKEND</h1>
+                <article className="mx-30 mt-12">
+                    <h1 className="text-3xl text-white font-bold mb-6">BACKEND</h1>
 
                     <div className="flex flex-col md:flex-row gap-4 text-center">
 
@@ -176,8 +176,8 @@ const About = () => {
 
                 {/** this is toolss section */}
 
-                <article className="mx-30">
-                    <h1 className="text-white text-3xl mb-5">Tools</h1>
+                <article className="mx-30 mt-12">
+                    <h1 className="text-white text-3xl font-bold mb-6">Tools & IDEs</h1>
 
                     <div className="flex flex-col md:flex-row gap-4 text-center">
                         {ToolIDE.map((item)=>(
@@ -199,5 +199,6 @@ const About = () => {
 
     )
 }
+
 
 export default About

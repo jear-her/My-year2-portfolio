@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <main className="flex flex-col md:flex-row items-center justify-between p-10  bg-gray-800">
 
-            <h1 className="text-white">@2026 Developer Profile. All rights reserved.</h1>
+            <h1 className="text-white font-medium">© 2026 Jear Her. All rights reserved.</h1>
 
             <div className="flex items-center text-2xl space-x-4 text-white" >
 

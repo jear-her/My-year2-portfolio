@@ -9,16 +9,19 @@ const Hero = () => {
 
             <section className="shadow-md  mx-auto text-center leading-10 p-10 rounded-lg mt-20  ">
 
-                <p className="text-4xl">Hello, I am Cheer</p>
-                <h1 className="text-5xl font-semibold text-white">FrontEnd Developer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nostrum at ncidunt adipisci autem!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nostrum at ncidunt adipisci autem!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nostrum at ncidunt adipisci autem!</p>
+                <p className="text-4xl text-green-400">Hello, I'm Jear Her</p>
+                <h1 className="text-6xl font-bold text-white mb-6">Full-Stack Web Developer</h1>
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                    I specialize in building modern, responsive, and high-performance web applications. 
+                    With a passion for clean code and user-centric design, I help businesses transform their ideas into powerful digital experiences.
+                </p>
 
-                <div className="mt-10 flex items-center justify-center space-x-4  ">
-                    <button className="bg-green-200 text-black px-4 py-2  hover:bg-blue-600 transition duration-300 rounded-2xl">Get in Touch</button>
-                    <button className="bg-green-200 text-black px-4 py-2  hover:bg-blue-600 transition duration-300 rounded-2xl">
-                        <Link to="/about" className="text-black hover:text-blue-300 transition duration-300 ">Learn More About Me</Link>
+                <div className="mt-12 flex items-center justify-center space-x-6">
+                    <button className="bg-green-400 text-black px-8 py-3 font-bold hover:bg-green-500 transition duration-300 rounded-2xl">
+                        <Link to="/contact">Get in Touch</Link>
+                    </button>
+                    <button className="border-2 border-green-400 text-white px-8 py-3 font-bold hover:bg-green-400 hover:text-black transition duration-300 rounded-2xl">
+                        <Link to="/about">Learn More</Link>
                     </button>
 
                 </div>
@@ -28,49 +31,42 @@ const Hero = () => {
 
             {/** Second Hero Section */}
 
-            <section className=" flex flex-col md:flex-row items-center justify-center  space-x-20 mx-5 shadow-md p-30 ">
+            <section className=" flex flex-col md:flex-row items-center justify-center  gap-8 mx-5 shadow-md p-20 ">
 
-                <div className="border-2 border-green-200    p-6 rounded-lg text-center hover:border-green-500 ">
-                    <h1 className="text-white">10+</h1>
-                    <p className="text-xl font-bold mb-4">Technologies master</p>
-                    <p className="text-xl font-bold mb-4">Technologies master</p>
-                    <p className="text-xl font-bold mb-4">Technologies master</p>
-
+                <div className="border-2 border-green-200 w-full md:w-64 p-8 rounded-xl text-center hover:border-green-500 transition-all transform hover:-translate-y-2">
+                    <h1 className="text-4xl font-bold text-green-400 mb-2">10+</h1>
+                    <p className="text-lg font-semibold text-white">Technologies Mastered</p>
+                    <p className="text-sm text-gray-400 mt-2">Proficient in modern stacks like React, Node, and TypeScript.</p>
                 </div>
-                <div className="border-2 border-green-200 p-6 rounded-lg text-center hover:border-green-500 ">
-                    <h1 className="text-white">50+</h1>
-                    <p className="text-xl font-bold mb-4">Project completed</p>
-                    <p className="text-xl font-bold mb-4">Project completed</p>
-                    <p className="text-xl font-bold mb-4">Project completed</p>
+                <div className="border-2 border-green-200 w-full md:w-64 p-8 rounded-xl text-center hover:border-green-500 transition-all transform hover:-translate-y-2">
+                    <h1 className="text-4xl font-bold text-green-400 mb-2">50+</h1>
+                    <p className="text-lg font-semibold text-white">Projects Completed</p>
+                    <p className="text-sm text-gray-400 mt-2">Delivered diverse web solutions across various industries.</p>
                 </div>
-                <div className="border-2 border-green-200 p-6 rounded-lg text-center hover:border-green-500 ">
-                    <h1 className="text-white">100</h1>
-                    <p className="text-xl font-bold mb-4">Happy Clients</p>
-                    <p className="text-xl font-bold mb-4">Happy Clients</p>
-                    <p className="text-xl font-bold mb-4">Project completed</p>
+                <div className="border-2 border-green-200 w-full md:w-64 p-8 rounded-xl text-center hover:border-green-500 transition-all transform hover:-translate-y-2">
+                    <h1 className="text-4xl font-bold text-green-400 mb-2">100%</h1>
+                    <p className="text-lg font-semibold text-white">Client Satisfaction</p>
+                    <p className="text-sm text-gray-400 mt-2">Committed to delivering excellence and exceeding expectations.</p>
                 </div>
 
             </section>
             {/* Last Section  */}
-            <section >
-                <h1 className="text-2xl font-bold mb-4 text-center text-white" >What I DO ? </h1>
+            <section className="pb-20">
+                <h1 className="text-4xl font-bold mb-12 text-center text-white" >Core Expertise</h1>
 
-                <aside className="flex flex-col md:flex-row items-center justify-between px-6 mx-auto shadow-md p-20 space-x-5 ">
+                <aside className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 mx-auto max-w-6xl">
 
-                    <div className="border-2 border-green-200 p-6 rounded-lg text-center hover:border-green-500 ">
-                        <h1>Responsive Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, expedita.
-                        </p>
+                    <div className="border-2 border-green-200 p-8 rounded-xl text-center hover:border-green-500 transition-colors">
+                        <h2 className="text-xl font-bold text-green-400 mb-4">Responsive Web Design</h2>
+                        <p className="text-gray-300">Creating seamless experiences across all devices, from mobile to desktop.</p>
                     </div>
-                    <div className="border-2 border-green-200 p-6 rounded-lg text-center hover:border-green-500 ">
-                        <h1>Responsive Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, expedita.
-                        </p>
+                    <div className="border-2 border-green-200 p-8 rounded-xl text-center hover:border-green-500 transition-colors">
+                        <h2 className="text-xl font-bold text-green-400 mb-4">Frontend Development</h2>
+                        <p className="text-gray-300">Building interactive and dynamic user interfaces using modern React frameworks.</p>
                     </div>
-                    <div className="border-2 border-green-200 p-6 rounded-lg text-center hover:border-green-500 ">
-                        <h1>Responsive Design</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, expedita.
-                        </p>
+                    <div className="border-2 border-green-200 p-8 rounded-xl text-center hover:border-green-500 transition-colors">
+                        <h2 className="text-xl font-bold text-green-400 mb-4">Backend Architecture</h2>
+                        <p className="text-gray-300">Developing robust and scalable server-side logic and database structures.</p>
                     </div>
 
                      
