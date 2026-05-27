@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/** Global styles */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #222;
+  }
+  p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    background-color: #007bff;
+    padding: 10px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+}
